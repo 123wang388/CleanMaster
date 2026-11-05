@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 打包产物
+build/
+dist/
+dist_installer/
+*.spec
+
+# 运行时数据 —— 这里存的是用户电脑的注册表备份和被隔离的文件，绝对不要提交
+CleanMasterData/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
